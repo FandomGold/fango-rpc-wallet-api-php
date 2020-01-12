@@ -5,7 +5,7 @@
  * 
  * Created by MunchieHigh */
 
-class CryptonightV8_RpcClient {
+class FandomGold_RpcClient {
   public $host = "";
   public $port = "";
   public $id = "";
