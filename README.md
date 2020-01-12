@@ -1,5 +1,5 @@
-# cryptonightv8-wallet-api-php
-This is the API library for the Cryptonight V8 wallets in PHP.
+# fango-rpc-wallet-api-php
+This is the API library for the Fandom Gold rpc-wallets in PHP.
 For the wiki, refer to this url: https://github.com/FandomGold/fandomgold/wiki/RPC-wallet-API-methods
 
 How to use it?  
@@ -12,9 +12,9 @@ We're going to use `getTransactionHashes` for an example. Click [here](https://g
 include('service.php');
 
 /* For every value that needs to be empty u just fill in '' */
-$RpcTest = new CryptonightV8_RpcClient("spookypool.nl", "12345", "hi");
+$RpcTest = new FandomGold_RpcClient("spookypool.nl", "12345", "hi");
 print_r($RpcTest->getTransactionHashes(
-  'dRGLbfa8qaHZLKAuENnjtxAsahDWAmoFJXf9GpR9J78Jji6uBAwLzXM8ynT9ALZ5q8SGV86d162RLdhZRvuTbKsq8Mhys1aVgd',
+  'fango2nGK6YRwYThLiqEer2UinJUqvQdTC8LYK82aVyQ9uyDVKTdC8M7ugDwpdbpSweYpgLcu318zZAN3FVzzLkRLQxDkQWtRmg',
   '',
   1,
   10,
