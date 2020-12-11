@@ -1,5 +1,5 @@
 # fango-rpc-wallet-api-php
-This is the API library for the Fandom Gold rpc-wallets in PHP.
+This is the API library for the Fango RPC-wallets in PHP.
 For the wiki, refer to this url: https://github.com/FandomGold/fandomgold/wiki/RPC-wallet-API-methods
 
 How to use it?  
